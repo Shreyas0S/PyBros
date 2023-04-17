@@ -475,7 +475,6 @@ def display(win,font,x,y):
     win.blit(score,(x,y))
 
 def main(window):
-    menu() 
     global orb_count
     global offset_x
     font=pygame.font.Font('freesansbold.ttf',32)
